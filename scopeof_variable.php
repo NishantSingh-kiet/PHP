@@ -90,11 +90,15 @@ function myTest() {
 myTest();
 echo $y; // outputs 15
 ?>
-PHP also stores all global variables in an array called $GLOBALS[index]. The index holds the name of the variable. This array is also accessible from within functions and can be used to update global variables directly.
+
+/*PHP also stores all global variables in an array called $GLOBALS[index]. 
+The index holds the name of the variable.
+This array is also accessible from within functions and can be used to update global variables directly.
 
 The example above can be rewritten like this:
 
-Example
+Example*/
+
 <?php
 $x = 5;
 $y = 10;
@@ -114,7 +118,8 @@ echo $y; // outputs 15
 */
 
 /*PHP The static Keyword
-Normally, when a function is completed/executed, all of its variables are deleted. However, sometimes we want a local variable NOT to be deleted. We need it for a further job.
+Normally, when a function is completed/executed, all of its variables are deleted. 
+However, sometimes we want a local variable NOT to be deleted. We need it for a further job.
 
 To do this, use the static keyword when you first declare the variable:*/
 
